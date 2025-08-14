@@ -1,0 +1,41 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 200;
+}
+
+html,body{
+   height: 100%;
+   width: 100%;
+
+}
+
+#page1{
+   height: 100%;
+   width: 100%;
+   background-color: rgb(208, 235, 248);
+  
+}
+#page2{
+   height: 100%;
+   width: 100%;
+   background-color: rgb(70, 118, 166);
+  
+}
+#page3{
+   height: 100%;
+   width: 100%;
+   background-color: rgb(3, 53, 123);
+  
+}
+#page2 img{
+   width: 10%;
+   height: 100%;
+   object-fit: cover;
+   position: relative;
+   left: 50%;
+   transform: translateX(-50%);
+}
