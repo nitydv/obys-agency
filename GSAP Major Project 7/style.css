@@ -5,8 +5,6 @@
    color: white;
    font-family: Verdana, Geneva, Tahoma, sans-serif;  
    font-weight: 200;
-
-
 }
 
 html,body{
@@ -14,7 +12,6 @@ html,body{
    width: 100%;
 
 }
-/* #0B0B0B */
 @font-face {
    font-family: plain light;
    src: url(../FONT/plain-light-webfont_1.ttf);
@@ -22,7 +19,7 @@ html,body{
 @font-face {
    font-family: plain regular;
    src: url(../FONT/plain-regular-webfont.ttf);
-}
+}              
 @font-face {
    font-family: silkserif light;
    src: url(../FONT/silkserif-lightitalic-webfont_1.ttf);
@@ -33,6 +30,18 @@ html,body{
 }
 #main{
    position: relative;
+}
+
+#cursor{
+   height: 40px;
+   width: 40px;
+   /* background-color: #151515; */
+   border-radius: 50%;
+   border: solid 1px #D0D0D0;
+   position: fixed;
+   z-index: 999;
+   mix-blend-mode: difference;
+   transform: translate(-50%,-50%);
 }
 
 #loader{
@@ -118,15 +127,92 @@ html,body{
       opacity: 0;
    }
 }
-
 #page1{
-   position: absolute;  
+   justify-content: space-between;
    height: 100vh;
    width: 100%;  
    background-color: #151515;
-   
- 
 }
+#nav{
+   height: 3vw;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   padding: 7.2vh 0 0 5vw;
+   font-family:  plain light;
+}
+#svg1{
+   align-items: baseline;
+   /* background-color: rgb(49, 29, 2); */
+   margin: 0.3vw;
+}
+.brand__svg{
+   margin-left: 2vw;
+}
+#nav-part2{
+   display: flex; 
+   align-items: flex-start;   
+   justify-content: center;
+}
+#nav h3{
+   font-family: plain light;
+   font-weight: 200;
+   font-size: 1vw;
+}
+h3:nth-child(4){
+   margin-right: 60px;
+}
+h3:nth-child(3){
+   margin-right: 50px;
+}
+h3:nth-child(2){
+   margin-right: 50px;
+}
+h3:nth-child(1){
+   margin-right: 650px;
+}
+.text {
+   /* background-color: rgb(219, 59, 15); */
+   height: fit-content;
+   width: 60%;
+   overflow: hidden;
+   margin-left: 28%;
+   display: flex;
+   align-items: center;
+   position: relative;
+   z-index: 9999;
+}
+.text h1{
+   text-transform: uppercase ;
+   font-size: 7.6vw;
+   font-family: plain regular;
+   font-weight: 500;
+   line-height: 7.3vw;
+}
+.text h2{
+   text-transform: uppercase ;
+   font-size: 7.6vw;
+   font-family: plain regular;
+   font-weight: 500;
+   line-height: 7.3vw;
+}
+.text h2:nth-child(1){
+   border-bottom: solid 9px white;
+}
+.text h2:nth-child(3){
+   border-bottom: solid 9px white;
+}
+#text3{
+   display: flex;
+}
+#text:nth-child(2){
+   margin-top: 14vw;
+}
+#text3 h2:hover{
+   -webkit-text-stroke: 0.6px rgb(255, 255, 255);
+   color: transparent;
+   border-bottom: solid 9px transparent;
 
+}
 
 
