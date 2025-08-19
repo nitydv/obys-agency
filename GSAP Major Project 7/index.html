@@ -6,16 +6,13 @@
     <title>Obys Agency</title>
     <link rel="shortcut icon" href="../favicon/obys-icon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
-    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet"/>
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/aayushchouhan24/sheryjs@main/dist/Shery.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="cursor"></div>
-    <div id="loader">
+    <div id="loader" data-scroll data-scroll-speed="-1">
         <div class="line">
             <h5>00</h5>
             <h4> - 100</h4>
@@ -30,7 +27,7 @@
         </div>  
     </div>
     <div id="main">
-        <div id="page1">
+        <div id="page1" data-scroll >
             <div id="nav"> 
                 <div id="nav-part1">
                     <svg id="svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="20" height="20">                  
@@ -89,17 +86,19 @@
                     <i class="ri-play-fill"></i>
                 </div>
                 <img src="https://obys.agency/wp-content/uploads/2022/11/Showreel-2022-preview-1.jpg" alt="">
-                <video autoplay muted src="https://obys.agency/wp-content/uploads/2024/12/Obys-Showreel-2024.mp4"></video>
+                <video muted src="https://obys.agency/wp-content/uploads/2024/12/Obys-Showreel-2024.mp4"></video>
             </div>
         </div>
-        <div id="page2">
+        <div id="page2" data-scroll data-scroll-speed="-0.5">
             <div id="text-projects">
                 <h1>Our Projects</h1>
                 <div class="underline"></div>
-                <!-- or yha baki items and designs ki jageh -->
+
+
+
             </div>
         </div>
-        <div id="page3">
+        <div id="page3" data-scroll data-scroll-speed="-O.5">
             <div id="text-about">
                 <h1>About Obys</h1>
                 <div class="underline"></div>
@@ -181,7 +180,7 @@
             <div id="underline1"></div>
             <h4>We work with</h4>
         </div>
-        <div id="slidebar">
+        <div id="slidebar" data-scroll data-scroll-speed="-0.5">
             <div class="slide-text-forward">
                 <h2> - <span>Fashion</span> - Sport - <span>Technology</span></h2>
                 <h2> - Fashion - <span>Sport</span> - Technology</h2>
@@ -199,7 +198,7 @@
                 <h2> - Hotels - <span>Music</span> - Automotive</h2>
             </div>
         </div>
-        <div id="page4">
+        <div id="page4" data-scroll data-scroll-speed="-0.5">
             <div id="text-create">
                 <h1>Let's Create</h1>
                 <i class="ri-arrow-right-line"></i>
@@ -228,11 +227,13 @@
             <h3>Obys Agency © 2025</h3>
         </div>
     </div> 
-     
+
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/aayushchouhan24/sheryjs@main/dist/Shery.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
