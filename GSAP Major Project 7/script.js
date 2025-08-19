@@ -44,8 +44,7 @@ function loadingAnimation(){
     gsap.to("#loader",{
         y: "-100%",
         duration: 0.8,
-        delay: 2.2,
-        display: "none" ,
+        delay: 2.5,
     },"sameTime");
 
     gsap.from("#page1",{
