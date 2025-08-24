@@ -193,33 +193,3 @@ function sheryAnimation() {
   
 }
 sheryAnimation();
-
-// const textStyle = document.querySelector("#text-create");
-// const normal = textStyle.querySelector("#text-create-normal");
-// const italic = textStyle.querySelector("#text-create-italic");
-
-// textStyle.addEventListener("mouseenter",function(){
-//   gsap.to("#text-create-normal",{
-//     opacity: 0, 
-//     duration: 0.6, 
-//     ease: "power3.out", 
-//   });
-//   gsap.to("#text-create-italic",{ 
-//     opacity: 1, 
-//     duration: 0.6, 
-//     ease: "power3.out", 
-//   });
-// });
-
-// textStyle.addEventListener("mouseleave",function(){
-//   gsap.to("#text-create-normal",{ 
-//     opacity: 1, 
-//     duration: 0.6, 
-//     ease: "power3.out", 
-//   });
-//   gsap.to("#text-create-italic",{ 
-//     opacity: 0, 
-//     duration: 0.6, 
-//     ease: "power3.out", 
-//   });
-// });
